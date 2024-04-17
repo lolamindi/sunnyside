@@ -1,0 +1,97 @@
+@import url("variables.css");
+
+.top {
+  background-image: url(assets/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 44px 0 44px;
+}
+
+.logo {
+  height: 33px;
+  width: 170px;
+  padding-top: 12px;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  gap: 48px;
+  padding-bottom: 16px;
+}
+
+.menu-item {
+  font: var(--barlow);
+  font-size: medium;
+  font-weight: 200;
+  color: var(--white);
+}
+
+.contact {
+  font: var(--fraunces);
+  color: var(--dark-blue);
+  background-color: var(--white);
+  border: none;
+  border-radius: 28px;
+  width: 180px;
+  height: 56px;
+  padding: 12px 28px 12px 28px;
+}
+
+.contact:hover {
+  color: var(--white);
+  background-color: var(--button-background);
+}
+
+.title {
+  color: var(--white);
+  text-align: center;
+  font: var(--fraunces-heavy);
+  letter-spacing: 8px;
+  padding-top: 32px;
+}
+
+.arrow {
+  padding-top: 24px;
+}
+
+.central-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.egg-section {
+  background-image: url(assets/desktop/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.cup-section {
+  background-image: url(assets/desktop/image-stand-out.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.cherry-section {
+background-image: url(assets/desktop/image-graphic-design.jpg);
+}
+
+.tangerine-section {
+  background-image: url(assets/desktop/image-photography.jpg);
+}
