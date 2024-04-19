@@ -32,14 +32,13 @@
 }
 
 .menu-item {
-  font: var(--barlow);
-  font-size: medium;
+  font: var(--barlow-header);
   font-weight: 200;
   color: var(--white);
 }
 
 .contact {
-  font: var(--fraunces);
+  font: var(--fraunces-header);
   color: var(--dark-blue);
   background-color: var(--white);
   border: none;
@@ -57,7 +56,7 @@
 .title {
   color: var(--white);
   text-align: center;
-  font: var(--fraunces-heavy);
+  font: var(--fraunces-title);
   letter-spacing: 8px;
   padding-top: 32px;
 }
@@ -72,26 +71,102 @@
   grid-template-rows: repeat(3, auto);
 }
 
-.egg-section {
+.egg-photo {
   background-image: url(assets/desktop/image-transform.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
 }
 
-.cup-section {
+.cup-photo {
   background-image: url(assets/desktop/image-stand-out.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
 }
 
 .cherry-section {
-background-image: url(assets/desktop/image-graphic-design.jpg);
+  background-image: url(assets/desktop/image-graphic-design.jpg);
+  color: var(--green);
 }
 
 .tangerine-section {
   background-image: url(assets/desktop/image-photography.jpg);
+  color: var(--darkest-blue);
+}
+
+.egg-photo,
+.cup-photo,
+.cherry-section,
+.tangerine-section {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+
+.egg-cup-heading {
+  font: var(--fraunces-heading);
+}
+
+.egg-text,
+.cup-text {
+  width: 448px;
+  margin: auto;
+}
+
+.egg-cup-heading {
+  color: var(--dark-blue);
+}
+
+.egg-cup-paragraph {
+  font: var(--barlow-header);
+  color: var(--grey);
+}
+
+.highlight-text {
+  font: var(--fraunces-highlight);
+  color: var(--dark-blue);
+  position: relative;
+}
+
+.highlight-text::after {
+  content: '';
+  position: absolute;
+  left: -6;
+  bottom: -4px;
+  width: 112%;
+  height: 8px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease; 
+}
+
+
+#yellow-highlight::after {
+  background-color: var(--light-yellow); 
+}
+
+#yellow-highlight:hover::after {
+background-color: var(--yellow); 
+}
+
+#pink-highlight::after {
+  background-color: var(--light-pink);
+}
+
+#pink-highlight:hover::after {
+  background-color: var(--pink); 
+  }
+
+
+.fruit-box {
+  text-align: center;
+  width: 360px;
+  margin: auto;
+  padding-top: 340px;
+}
+
+.cherry-heading,
+.tangerine-heading {
+  font: var(--fraunces-subheading);
+}
+
+.fruit-text {
+  font: var(--barlow-body);
+  line-height: 28px;
 }
