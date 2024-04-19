@@ -3,24 +3,34 @@
 
 
 :root {
-  --faded-red: #fe7867;
+
+  /* used */
+  --green: #24554a; 
+  --darkest-blue: #052C3B;
+  --dark-blue: #24303e;
+  --button-background: #78cef5;
+  --white: #FFFFFF;
+  --grey: #808387;
+  --light-yellow:#fef2ba;
   --yellow: #fad400;
-  --green: #25564b;
+  --light-pink:#ffdbd4;
+  --pink: #fe7766;
+
   --petrol-blue: #19536b;
   --footer-text: #458d7e;
   --footer-background:#90D4C6;
-  --button-background: #78cef5;
-  --dark-blue: #24303e;
   --slate: #5a636c;
-  --grey: #818498;
   --light-grey:#a7abae;
-  --white: #FFFFFF;
   }
 
 :root {
-  --barlow: 600 18px 'Barlow', sans-serif;
-  --fraunces: 700 12px'Fraunces', serif;
-  --fraunces-heavy: 900 56px 'Fraunces', serif;
+  --barlow-header: 600 18px 'Barlow', sans-serif;
+  --barlow-body: 600 16px 'Barlow', sans-serif;
+  --fraunces-header: 700 12px 'Fraunces', serif;
+  --fraunces-highlight: 700 16px 'Fraunces', serif;
+  --fraunces-heading: 900 40px 'Fraunces', serif;
+  --fraunces-subheading: 900 28px 'Fraunces', serif;
+  --fraunces-title: 900 56px 'Fraunces', serif;
 }
 
 body {
