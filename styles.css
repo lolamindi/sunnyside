@@ -15,7 +15,7 @@
   padding: 16px 44px 0 44px;
 }
 
-.logo {
+.logo-header {
   height: 33px;
   width: 170px;
   padding-top: 12px;
@@ -51,6 +51,7 @@
 .contact:hover {
   color: var(--white);
   background-color: var(--button-background);
+  transition: background-color 0.5s ease; 
 }
 
 .title {
@@ -133,7 +134,7 @@
   width: 112%;
   height: 8px;
   border-radius: 25px;
-  transition: background-color 0.3s ease; 
+  transition: background-color 0.5s ease; 
 }
 
 
@@ -170,3 +171,92 @@ background-color: var(--yellow);
   font: var(--barlow-body);
   line-height: 28px;
 }
+
+.testimonial-heading {
+  color: var(--light-grey);
+  font: var(--fraunces-section);
+  letter-spacing: 4px;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.testimonial-grid {
+  display: flex;
+  padding: 0 60px 60px 60px;
+}
+
+.testimonial-photo {
+  border-radius: 100%;
+  width: 72px;
+  margin: auto;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 52px;
+}
+
+.review-text {
+  font: var(--barlow-body);
+  color: var(--slate);
+  line-height: 24px;
+}
+
+.review-name {
+  font: var(--fraunces-subsection);
+  color: var(--dark-blue);
+}
+
+.review-role {
+  font: var(--barlow-detail);
+  color: var(--light-grey);
+  margin-top: -16px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 2px solid black;
+} 
+
+.milk-bottles {
+  background-image: url(assets/desktop/image-gallery-milkbottles.jpg);
+}
+
+.orange-plate {
+  background-image: url(assets/desktop/image-gallery-orange.jpg);
+}
+
+.cone {
+  background-image: url(assets/desktop/image-gallery-cone.jpg);
+}
+
+.sugar-cubes {
+  background-image: url(assets/desktop/image-gallery-sugarcubes.jpg);
+}
+
+.footer-box {
+  background-color: var(--footer-background);
+}
+
+.milk-bottles,
+.orange-plate,
+.cone,
+.sugar-cubes {
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: contain;
+  background-color: var(--footer-background);
+  max-width: 100%;
+}
+
+
+.logo-footer {
+  margin-top: -80px;
+  margin: auto;
+}
+
+
+
