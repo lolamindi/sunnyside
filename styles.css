@@ -51,7 +51,7 @@
 .contact:hover {
   color: var(--white);
   background-color: var(--button-background);
-  transition: background-color 0.5s ease; 
+  transition: background-color 0.5s ease;
 }
 
 .title {
@@ -127,23 +127,22 @@
 }
 
 .highlight-text::after {
-  content: '';
+  content: "";
   position: absolute;
   left: -6;
   bottom: -4px;
   width: 112%;
   height: 8px;
   border-radius: 25px;
-  transition: background-color 0.5s ease; 
+  transition: background-color 0.5s ease;
 }
 
-
 #yellow-highlight::after {
-  background-color: var(--light-yellow); 
+  background-color: var(--light-yellow);
 }
 
 #yellow-highlight:hover::after {
-background-color: var(--yellow); 
+  background-color: var(--yellow);
 }
 
 #pink-highlight::after {
@@ -151,9 +150,8 @@ background-color: var(--yellow);
 }
 
 #pink-highlight:hover::after {
-  background-color: var(--pink); 
-  }
-
+  background-color: var(--pink);
+}
 
 .fruit-box {
   text-align: center;
@@ -218,45 +216,40 @@ background-color: var(--yellow);
 .image-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border: 2px solid black;
-} 
-
-.milk-bottles {
-  background-image: url(assets/desktop/image-gallery-milkbottles.jpg);
 }
 
-.orange-plate {
-  background-image: url(assets/desktop/image-gallery-orange.jpg);
-}
-
-.cone {
-  background-image: url(assets/desktop/image-gallery-cone.jpg);
-}
-
-.sugar-cubes {
-  background-image: url(assets/desktop/image-gallery-sugarcubes.jpg);
+.footer-image {
+  display: block;
+  max-width: 100%;
 }
 
 .footer-box {
   background-color: var(--footer-background);
+  padding: 40px;
 }
 
-.milk-bottles,
-.orange-plate,
-.cone,
-.sugar-cubes {
-  background-repeat: no-repeat;
-  height: 100%;
-  background-size: contain;
-  background-color: var(--footer-background);
-  max-width: 100%;
+.footer-logo-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-
-.logo-footer {
-  margin-top: -80px;
-  margin: auto;
+.footer-menu {
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+  margin-top: 40px;
+  padding-right:12px;
 }
 
+.footer-menu-item {
+  color: var(--footer-text);
+  font: var(--barlow-header);
+}
 
-
+.social-media-menu {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 48px 0 28px 0;
+}

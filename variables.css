@@ -4,7 +4,7 @@
 
 :root {
   --green: #24554a; 
-  --darkest-blue: #052C3B;
+  --darkest-blue: #052c3b;
   --dark-blue: #24303e;
   --button-background: #78cef5;
   --white: #FFFFFF;
@@ -14,8 +14,9 @@
   --light-pink:#ffdbd4;
   --pink: #fe7766;
   --light-grey:#a7aaad;
-  --slate:#5B636D;
-  --footer-background:#90D4C6;
+  --slate:#5b636d;
+  --footer-background:#90d4c6;
+  --footer-text: #458d7e;
   }
 
 :root {
