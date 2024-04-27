@@ -355,4 +355,10 @@
   padding: 40px 40px 12px 40px;
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 60px;
+}
+
 }
