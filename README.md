@@ -12,6 +12,7 @@ This is my solution to the Frontend Mentor [Sunnyside Agency coding challenge](h
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Videos & Images](#videos-&-images)
+  - [Links](#links)
   - [Testing](#testing)
   - [Installation](#installation)
 
@@ -30,14 +31,16 @@ This is my solution to the Frontend Mentor [Sunnyside Agency coding challenge](h
 The solution includes specific design elements within the user experience:
 
 - Background images with layered text and navigation menus
-- Hover states for the 'CONTACT' button in the desktop header and the coloured underline detailing on the 'LEARN MORE' text
-- Responsive design for mobile featuring alternative layout and a hamburger menu
+- Hover states in desktop for the 'CONTACT' button in the header and the coloured underline detailing on the 'LEARN MORE' text
+- Responsive design for mobile featuring an alternative layout and a hamburger menu
 
 ### Videos & Images 
 
-These videos and images show the final result:
+These videos and screenshots show the final result:
 
 ![desktop video](assets/readme/video-desktop.gif)
+
+
 
 
 
