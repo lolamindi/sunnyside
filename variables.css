@@ -20,6 +20,7 @@
   }
 
 :root {
+  --barlow-hamburger: 600 20px 'Barlow', sans-serif;
   --barlow-header: 600 18px 'Barlow', sans-serif;
   --barlow-body: 600 16px 'Barlow', sans-serif;
   --barlow-detail: 600 14px 'Barlow', sans-serif;
@@ -40,6 +41,10 @@ body {
   font-size: 18px;
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   list-style: none;
 }
@@ -47,6 +52,8 @@ li {
 a {
   text-decoration: none;
 }
+
+
 
 
 
