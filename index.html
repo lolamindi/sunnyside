@@ -3,35 +3,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/svg" href="./assets/favicon-32x32.png" />
+    <link rel="icon" type="image/svg" href="./assets/logos-icons/favicon-32x32.png" />
     <title>Sunnyside Agency Landing Page</title>
   </head>
   <body>
 
     <header class="top">
       <nav class="nav-menu">
-      <img src="assets/logo.svg" class="logo-header" alt="logo Sunnyside Agency" />
-      <img src="assets/mobile/icon-hamburger.svg" class="hamburger-menu" alt="hamburger menu" />
+      <img src="assets/logos-icons/logo.svg" class="logo-header" alt="logo Sunnyside Agency" />
+      <input type="checkbox" id="menuCheckbox" class="checkbox" >
+<label for="menuCheckbox">
+    <img src="assets/mobile/icon-hamburger.svg" class="hamburger-menu" alt="hamburger menu">
+</label>
+
+<div id="menuContent" class="hamburger-menu-content">
+  <ul class="mobile-menu">
+    <li><a href="#" class="mobile-menu-item">About</a></li>
+    <li><a href="#" class="mobile-menu-item">Services</a></li>
+    <li><a href="#" class="mobile-menu-item">Projects</a></li>
+    <li class="yellow-contact"><a href="#" class="mobile-contact">CONTACT</a></li>
+  </ul>
+</div>
       <nav>
         <ul class="menu">
-          <li>
-            <a href="#" class="menu-item">About</a>
-        </li>
-        <li>
-          <a href="#" class="menu-item">Services</a>
-      </li>
-      <li>
-        <a href="#" class="menu-item">Projects</a>
-    </li>
-    <li>
-      <a href="#" class="contact">CONTACT</a>
-  </li>
+          <li><a href="#" class="menu-item">About</a></li>
+          <li><a href="#" class="menu-item">Services</a></li>
+          <li><a href="#" class="menu-item">Projects</a></li>
+          <li><a href="#" class="contact">CONTACT</a></li>
         </ul>
       </nav>
     </nav>
     <div class="title">
       <h1 class="title">WE ARE CREATIVES</h1>
-      <img src="assets/icon-arrow-down.svg" class="arrow" alt="down arrow" />
+      <img src="assets/logos-icons/icon-arrow-down.svg" class="arrow" alt="down arrow" />
     </div>
     </header>
 
@@ -95,7 +99,7 @@
 </section>
 <footer class="footer-box">
 <div class="footer-logo-box">
-  <img src="assets/logo-footer.svg" class="logo-footer" alt="logo Sunnyside Agency" >
+  <img src="assets/logos-icons/logo-footer.svg" class="logo-footer" alt="logo Sunnyside Agency" >
 </div>
 <ul class="footer-menu">
     <li>
@@ -116,4 +120,5 @@
 </nav>
 </footer>
   </body>
+<script src="hamburgerMenu.js"></script>  
 </html>
