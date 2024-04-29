@@ -343,15 +343,16 @@ input {
 .title {
   font: var(--fraunces-heading);
   letter-spacing: 4px;
+  padding-bottom: -28px;
 }
 
 .arrow {
-  padding-top: 28px;
+  padding-top: 24px;
 }
 
 .top {
   background-image: url(assets/mobile/image-header.jpg);
-  height: 80vh;
+  height: 76vh;
 }
 
 .egg-photo-mobile,
