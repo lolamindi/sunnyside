@@ -343,6 +343,7 @@ input {
 .title {
   font: var(--fraunces-heading);
   letter-spacing: 4px;
+  padding-top: 16px;
 }
 
 .arrow {
