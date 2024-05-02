@@ -5,7 +5,7 @@
 
 This is my solution to the Frontend Mentor [Sunnyside Agency coding challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef), where I used HTML, vanilla CSS, and vanilla JavaScript to create a responsive landing page as similar to the original design as possible. My mini-project also includes testing using Jest to ensure that the mobile menu content appears and disappears on-click as it should.
 
-![Sunnyside Agency desktop header](<assets/readme/header-image.png>)
+![Sunnyside Agency desktop header](assets/readme/header-image.png)
 
 ## Table of Contents
 
@@ -85,14 +85,15 @@ To install this project, clone or fork the repository https://github.com/lolamin
 - CSS Grid
 - Desktop-first workflow
 - Unit testing with Jest
+- Deploy with Netlify
 
 ### Continued Development
 
 For this project, I prioritised the desktop design as I felt it was more challenging for me with its use of background images and CSS Grid, both of which I had limited experience with. In future, though, I aim to follow a mobile-first workflow as good practice. 
 
-After using Tailwind and Bootstrap in more recent projects, it was challenging yet motivating to use vanilla CSS again so it's likely that I'll use it in my next project to better familiarise myself with CSS property names and their functions. 
+After using Tailwind and Bootstrap in more recent projects, it was challenging yet motivating to use vanilla CSS again. I also aim to use it in my next project to better familiarise myself with CSS property names and their functions. I found it very useful to define CSS variables for both the colours and fonts, especially since there were so many of both in this project. This is definitely something I'll do again. 
 
-I found it very useful to use CSS variables for both the colours and fonts, especially since there were so many of both in this project. This is definitely something I'll use again. 
+I added unit tests to check that the JavaScript functions were working as they should, but I'd like to include integration tests or end-to-end testing in my next project.  
 
 ### Useful Resources
 
