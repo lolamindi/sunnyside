@@ -30,12 +30,12 @@ This is my solution to the Frontend Mentor [Sunnyside Agency coding challenge](h
 The solution includes specific design elements:
 
 - Background images with layered text and navigation menus
-- Hover states in desktop for the 'CONTACT' button in the header and the coloured underline detailing on the 'LEARN MORE' text
+- Hover states for the 'CONTACT' button in the desktop header and the coloured underline detailing on 'LEARN MORE' text
 - Responsive design for mobile featuring an alternative layout and a hamburger menu
 
 ### Demo Videos  
 
-These videos and screenshots show the final result:
+These demo videos show the final result:
 
 ![desktop video](assets/readme/video-desktop.gif)
 
