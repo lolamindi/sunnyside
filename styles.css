@@ -260,7 +260,7 @@
 
 /* MOBILE */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
   .nav-menu {
     padding: 20px 20px 0 20px;
   }
@@ -268,8 +268,7 @@
   .hamburger-menu {
     display: block;
     width: 48px;
-    margin-left: 120px;
-    z-index: 2;
+    margin-left: 138px;
   }
 
   #menuContent {
@@ -277,7 +276,7 @@
     top: 60px;
     width: 300px;
     height: 340px;
-    margin-left: 38px;
+    margin-left: 42px;
     margin-top: 40px;
     z-index: 2;
     background-color: var(--white);
@@ -426,6 +425,12 @@
 }
 
 @media screen and (max-width: 400px) {
+
+  .hamburger-menu {
+    margin-left: 120px;
+  }
+
   #menuContent {
     margin-left: 20px;
   }
+}
