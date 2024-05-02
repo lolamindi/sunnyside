@@ -40,6 +40,15 @@ These videos and screenshots show the final result:
 
 ![desktop video](assets/readme/video-desktop.gif)
 
+### Links
+
+- Solution URL: 
+- Live Site URL: [Sunnyside Agency Landing Page](https://sunnyside-agency-lolamindi.netlify.app/)
+
+### Testing 
+
+
+
 
 
 
