@@ -341,7 +341,7 @@
   }
 
   .arrow {
-    padding-top: 32px;
+    padding-top: 48px;
   }
 
   .top {
@@ -420,7 +420,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
 
   .hamburger-menu {
     margin-left: 120px;
