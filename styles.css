@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
 }
 
 .nav-menu {
@@ -61,11 +61,7 @@
   text-align: center;
   font: var(--fraunces-title);
   letter-spacing: 8px;
-  padding-top: 32px;
-}
-
-.arrow {
-  padding-top: 24px;
+  padding-top: 12px;
 }
 
 .egg-photo-mobile,
