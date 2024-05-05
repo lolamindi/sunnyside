@@ -12,7 +12,7 @@ This is my solution to the Frontend Mentor [Sunnyside Agency coding challenge](h
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
   - [Demo Videos](#demo-videos)
-  - [Links](#links)
+  - [Link](#link)
   - [Testing](#testing)
   - [Installation](#installation)
 
@@ -41,9 +41,8 @@ These demo videos show the final result:
 
 ![mobile video](assets/readme/video-mobile.gif)
 
-### Links
-
-- Solution URL:  
+### Link
+ 
 - Live Site URL: [Sunnyside Agency Landing Page](https://sunnyside-agency-lolamindi.netlify.app/)
 
 ### Testing 
