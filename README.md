@@ -43,7 +43,7 @@ These demo videos show the final result:
 
 ### Link
  
-- Live Site URL: [Sunnyside Agency Landing Page](https://sunnyside-lolamindi.vercel.app/))
+- Live Site URL: [Sunnyside Agency Landing Page](https://sunnyside-lolamindi.vercel.app/)
 
 ### Testing 
 
