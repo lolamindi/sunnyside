@@ -84,7 +84,7 @@ To install this project, clone or fork the repository https://github.com/lolamin
 - CSS Grid
 - Desktop-first workflow
 - Unit testing with Jest
-- Deploy with Netlify
+- Deploy with Vercel
 
 ### Continued Development
 
